@@ -67,7 +67,7 @@ module ChordCharts
         }]
 
         self.print_chords(a, 'A')
-        Menus::end_menu
+        Menus::end_menu_solo
     end
 
     def self.b_chord
@@ -91,7 +91,7 @@ module ChordCharts
         }]
 
         self.print_chords(b, 'B')
-        Menus::end_menu
+        Menus::end_menu_solo
     end
 
     def self.c_chord 
@@ -115,7 +115,7 @@ module ChordCharts
         }]
 
         self.print_chords(c, 'C')
-        Menus::end_menu
+        Menus::end_menu_solo
     end
 
     def self.d_chord    
@@ -139,7 +139,7 @@ module ChordCharts
         }]
 
         self.print_chords(d, 'D')
-        Menus::end_menu
+        Menus::end_menu_solo
     end
 
     def self.e_chord
@@ -164,7 +164,7 @@ module ChordCharts
         }]
     
         self.print_chords(e, 'E')
-        Menus::end_menu
+        Menus::end_menu_solo
     end
 
     def self.f_chord
@@ -189,7 +189,7 @@ module ChordCharts
         }]
     
         self.print_chords(f, 'F')
-        Menus::end_menu
+        Menus::end_menu_solo
     end
 
     def self.g_chord
@@ -214,7 +214,7 @@ module ChordCharts
         }]
 
         self.print_chords(g, 'G')
-        Menus::end_menu
+        Menus::end_menu_solo
     end
 
 end #Module End
